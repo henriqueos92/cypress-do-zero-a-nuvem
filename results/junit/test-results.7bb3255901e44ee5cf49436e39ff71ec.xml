@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.687" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-01-21T17:29:01" tests="0" file="cypress/e2e/Testes.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Casos de Teste para o site AZShip" timestamp="2025-01-21T17:29:01" tests="1" time="18.671" failures="0">
+    <testcase name="Casos de Teste para o site AZShip CT001 - Página inicial deve carregar em menos de 3s" time="16.146" classname="CT001 - Página inicial deve carregar em menos de 3s">
+    </testcase>
+  </testsuite>
+</testsuites>

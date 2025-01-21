@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.884" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-01-21T18:20:00" tests="0" file="cypress/e2e/Testes.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Casos de Teste para o site AZShip" timestamp="2025-01-21T18:20:00" tests="1" time="17.877" failures="1">
+    <testcase name="Casos de Teste para o site AZShip CT003 - Testar formulário de cadastro/login" time="0.000" classname="CT003 - Testar formulário de cadastro/login">
+      <failure message="Timed out retrying after 4000ms: expected &apos;https://sso.azship.com.br/auth/realms/azship/login-actions/authenticate?execution=f17930e6-f4e3-4c95-8bec-485824fd833a&amp;client_id=transporter-cli&amp;tab_id=pJN3vhUFB_g&apos; to include &apos;transporter.azship.com.br&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'https://sso.azship.com.br/auth/realms/azship/login-actions/authenticate?execution=f17930e6-f4e3-4c95-8bec-485824fd833a&client_id=transporter-cli&tab_id=pJN3vhUFB_g' to include 'transporter.azship.com.br'
+    at Context.eval (webpack://cypress-do-zero-a-nuvem/./cypress/e2e/Testes.cy.js:44:17)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -26,3 +26,14 @@ Cypress.Commands.add('fillMandatoryFieldsAndSubmit_v3', (data = {
     cy.get('#open-text-area').as('openTextArea').type(data.openTextArea)
     cy.contains('button', 'Enviar').click()
 })
+
+Cypress.Commands.add('injectAxe', () => {
+  cy.window({ log: false }).then((win) => {
+    const script = win.document.createElement('script');
+    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/axe-core/4.1.4/axe.min.js';
+    script.onload = () => {
+      win.axe = window.axe;
+    };
+    win.document.head.appendChild(script);
+  });
+});

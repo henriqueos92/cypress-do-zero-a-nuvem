@@ -24,6 +24,11 @@
   "license": "MIT",
   "homepage": "https://github.com/wlsf82/cypress-do-zero-a-nuvem#readme",
   "devDependencies": {
-    "cypress": "^13.12.0"
+    "axe-core": "^4.10.2",
+    "cypress": "^13.12.0",
+    "cypress-axe": "^1.5.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-multi-reporters": "^2.0.4",
+    "mocha-junit-reporter": "^2.2.1"
   }
 }

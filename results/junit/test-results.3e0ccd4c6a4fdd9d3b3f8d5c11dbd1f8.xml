@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="80.313" tests="5" failures="3">
+  <testsuite name="Root Suite" timestamp="2025-01-21T18:33:12" tests="0" file="cypress/e2e/Testes.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Casos de Teste para o site AZShip" timestamp="2025-01-21T18:33:12" tests="5" time="80.305" failures="3">
+    <testcase name="Casos de Teste para o site AZShip CT001 - Página inicial deve carregar em menos de 3s" time="15.763" classname="CT001 - Página inicial deve carregar em menos de 3s">
+    </testcase>
+    <testcase name="Casos de Teste para o site AZShip CT002 - Verificar responsividade no mobile" time="0.000" classname="CT002 - Verificar responsividade no mobile">
+      <failure message="Timed out retrying after 4000ms: expected &apos;[ &lt;i.elementor-menu-toggle__icon--open.eicon-menu-bar&gt;, 1 more... ]&apos; to have CSS property &apos;position&apos; with the value &apos;absolute&apos;, but the value was &apos;static&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '[ <i.elementor-menu-toggle__icon--open.eicon-menu-bar>, 1 more... ]' to have CSS property 'position' with the value 'absolute', but the value was 'static'
+    at Context.eval (webpack://cypress-do-zero-a-nuvem/./cypress/e2e/Testes.cy.js:26:13)
+
+      + expected - actual
+
+      -'static'
+      +'absolute'
+      ]]></failure>
+    </testcase>
+    <testcase name="Casos de Teste para o site AZShip CT003 - Testar formulário de cadastro/login" time="0.000" classname="CT003 - Testar formulário de cadastro/login">
+      <failure message="Timed out retrying after 4000ms: expected &apos;https://sso.azship.com.br/auth/realms/azship/login-actions/authenticate?execution=f17930e6-f4e3-4c95-8bec-485824fd833a&amp;client_id=transporter-cli&amp;tab_id=rjUL3cBpU48&apos; to include &apos;transporter.azship.com.br&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'https://sso.azship.com.br/auth/realms/azship/login-actions/authenticate?execution=f17930e6-f4e3-4c95-8bec-485824fd833a&client_id=transporter-cli&tab_id=rjUL3cBpU48' to include 'transporter.azship.com.br'
+    at Context.eval (webpack://cypress-do-zero-a-nuvem/./cypress/e2e/Testes.cy.js:44:17)]]></failure>
+    </testcase>
+    <testcase name="Casos de Teste para o site AZShip CT004 - Testar links internos e externos" time="25.592" classname="CT004 - Testar links internos e externos">
+    </testcase>
+    <testcase name="Casos de Teste para o site AZShip CT005 - Avaliar acessibilidade" time="0.000" classname="CT005 - Avaliar acessibilidade">
+      <failure message="3 accessibility violations were detected: expected 3 to equal 0" type="AssertionError"><![CDATA[AssertionError: 3 accessibility violations were detected: expected 3 to equal 0
+    at Context.eval (webpack://cypress-do-zero-a-nuvem/./node_modules/cypress-axe/dist/index.js:100:0)
+
+      + expected - actual:  failed to generate Mocha diff
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

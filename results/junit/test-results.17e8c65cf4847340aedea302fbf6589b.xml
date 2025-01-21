@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="68.319" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-01-21T17:27:36" tests="0" file="cypress/e2e/Testes.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Casos de Teste para o site AZShip" timestamp="2025-01-21T17:27:36" tests="1" time="68.312" failures="1">
+    <testcase name="Casos de Teste para o site AZShip CT001 - Página inicial deve carregar em menos de 3s" time="0.000" classname="CT001 - Página inicial deve carregar em menos de 3s">
+      <failure message="Timed out after waiting `60000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `60000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.config.js` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands." type="CypressError"><![CDATA[CypressError: Timed out after waiting `60000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `60000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.config.js` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+    at timedOutWaitingForPageLoad (https://azship.com.br/__cypress/runner/cypress_runner.js:130539:64)
+    at <unknown> (https://azship.com.br/__cypress/runner/cypress_runner.js:131524:16)
+    at tryCatcher (https://azship.com.br/__cypress/runner/cypress_runner.js:1807:23)
+    at <unknown> (https://azship.com.br/__cypress/runner/cypress_runner.js:4186:41)
+    at tryCatcher (https://azship.com.br/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://azship.com.br/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://azship.com.br/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://azship.com.br/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://azship.com.br/__cypress/runner/cypress_runner.js:1697:18)
+    at _drainQueueStep (https://azship.com.br/__cypress/runner/cypress_runner.js:2407:12)
+    at _drainQueue (https://azship.com.br/__cypress/runner/cypress_runner.js:2400:9)
+    at Async._drainQueues (https://azship.com.br/__cypress/runner/cypress_runner.js:2416:5)
+    at Async.drainQueues (https://azship.com.br/__cypress/runner/cypress_runner.js:2286:14)
+From Your Spec Code:
+    at Context.eval (webpack://cypress-do-zero-a-nuvem/./cypress/e2e/Testes.cy.js:10:11)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

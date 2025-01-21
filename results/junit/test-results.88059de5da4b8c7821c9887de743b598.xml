@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.750" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-01-21T18:10:28" tests="0" file="cypress/e2e/Testes.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Casos de Teste para o site AZShip" timestamp="2025-01-21T18:10:28" tests="1" time="11.743" failures="1">
+    <testcase name="Casos de Teste para o site AZShip CT002 - Verificar responsividade no mobile" time="0.000" classname="CT002 - Verificar responsividade no mobile">
+      <failure message="Timed out retrying after 4000ms: expected &apos;[ &lt;i.elementor-menu-toggle__icon--open.eicon-menu-bar&gt;, 1 more... ]&apos; to have CSS property &apos;position&apos; with the value &apos;absolute&apos;, but the value was &apos;static&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '[ <i.elementor-menu-toggle__icon--open.eicon-menu-bar>, 1 more... ]' to have CSS property 'position' with the value 'absolute', but the value was 'static'
+    at Context.eval (webpack://cypress-do-zero-a-nuvem/./cypress/e2e/Testes.cy.js:26:13)
+
+      + expected - actual
+
+      -'static'
+      +'absolute'
+      ]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

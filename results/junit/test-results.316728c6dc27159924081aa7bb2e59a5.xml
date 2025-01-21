@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.062" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-01-21T18:04:28" tests="0" file="cypress/e2e/Testes.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Casos de Teste para o site AZShip" timestamp="2025-01-21T18:04:28" tests="1" time="8.055" failures="1">
+    <testcase name="Casos de Teste para o site AZShip CT002 - Verificar responsividade no mobile" time="0.000" classname="CT002 - Verificar responsividade no mobile">
+      <failure message="Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.
+
+The command that returned the promise was:
+
+  &gt; `cy.viewport()`
+
+The cy command you invoked inside the promise was:
+
+  &gt; `cy.screenshot()`
+
+Because Cypress commands are already promise-like, you don&apos;t need to wrap them or return your own promise.
+
+Cypress will resolve your command with whatever the final Cypress command yields.
+
+The reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.
+
+https://on.cypress.io/returning-promise-and-commands-in-another-command" type="CypressError"><![CDATA[CypressError: Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.
+
+The command that returned the promise was:
+
+  > `cy.viewport()`
+
+The cy command you invoked inside the promise was:
+
+  > `cy.screenshot()`
+
+Because Cypress commands are already promise-like, you don't need to wrap them or return your own promise.
+
+Cypress will resolve your command with whatever the final Cypress command yields.
+
+The reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.
+
+https://on.cypress.io/returning-promise-and-commands-in-another-command
+    at <unknown> (https://azship.com.br/__cypress/runner/cypress_runner.js:143939:62)
+    at tryCatcher (https://azship.com.br/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://azship.com.br/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://azship.com.br/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromiseCtx (https://azship.com.br/__cypress/runner/cypress_runner.js:1613:10)
+    at _drainQueueStep (https://azship.com.br/__cypress/runner/cypress_runner.js:2411:12)
+    at _drainQueue (https://azship.com.br/__cypress/runner/cypress_runner.js:2400:9)
+    at Async._drainQueues (https://azship.com.br/__cypress/runner/cypress_runner.js:2416:5)
+    at Async.drainQueues (https://azship.com.br/__cypress/runner/cypress_runner.js:2286:14)
+From Your Spec Code:
+    at Context.eval (webpack://cypress-do-zero-a-nuvem/./cypress/e2e/Testes.cy.js:21:11)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

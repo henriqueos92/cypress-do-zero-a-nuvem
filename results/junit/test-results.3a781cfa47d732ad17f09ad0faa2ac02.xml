@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.120" tests="10" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-01-21T17:22:30" tests="0" file="cypress/e2e/CAT-TAT.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Central de Atendimento ao Cliente TAT" timestamp="2025-01-21T17:22:30" tests="10" time="9.112" failures="0">
+    <testcase name="Central de Atendimento ao Cliente TAT verifica o título da aplicação" time="0.062" classname="verifica o título da aplicação">
+    </testcase>
+    <testcase name="Central de Atendimento ao Cliente TAT preenche os campos obrigatórios e envia o formulário" time="1.124" classname="preenche os campos obrigatórios e envia o formulário">
+    </testcase>
+    <testcase name="Central de Atendimento ao Cliente TAT exibe mensagem de erro ao submeter o formulário com um email com formatação inválida" time="1.096" classname="exibe mensagem de erro ao submeter o formulário com um email com formatação inválida">
+    </testcase>
+    <testcase name="Central de Atendimento ao Cliente TAT validar campo telefone informando valor não-númerico, o campo deve permanecer limpo" time="0.194" classname="validar campo telefone informando valor não-númerico, o campo deve permanecer limpo">
+    </testcase>
+    <testcase name="Central de Atendimento ao Cliente TAT exibe mensagem de erro quando o telefone se torna obrigatório mas não é preenchido antes do envio do formulário" time="1.345" classname="exibe mensagem de erro quando o telefone se torna obrigatório mas não é preenchido antes do envio do formulário">
+    </testcase>
+    <testcase name="Central de Atendimento ao Cliente TAT preenche e limpa os campos nome, sobrenome, email e telefone" time="1.707" classname="preenche e limpa os campos nome, sobrenome, email e telefone">
+    </testcase>
+    <testcase name="Central de Atendimento ao Cliente TAT exibe mensagem de erro ao submeter o formulário sem preencher os campos obrigatórios" time="0.103" classname="exibe mensagem de erro ao submeter o formulário sem preencher os campos obrigatórios">
+    </testcase>
+    <testcase name="Central de Atendimento ao Cliente TAT envia o formuário com sucesso usando um comando customizado" time="1.134" classname="envia o formuário com sucesso usando um comando customizado">
+    </testcase>
+    <testcase name="Central de Atendimento ao Cliente TAT envia o formuário com sucesso usando um comando customizado = v2" time="1.068" classname="envia o formuário com sucesso usando um comando customizado = v2">
+    </testcase>
+    <testcase name="Central de Atendimento ao Cliente TAT envia o formuário com sucesso usando um comando customizado = v3" time="1.046" classname="envia o formuário com sucesso usando um comando customizado = v3">
+    </testcase>
+  </testsuite>
+</testsuites>
