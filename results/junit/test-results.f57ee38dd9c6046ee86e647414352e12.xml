@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.074" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-01-28T19:03:39" tests="1" file="cypress/e2e/privacyPolicy.cy.js" time="0.074" failures="0">
+    <testcase name="testa a página da política de privacidade de forma independente" time="0.060" classname="testa a página da política de privacidade de forma independente">
+    </testcase>
+  </testsuite>
+</testsuites>
