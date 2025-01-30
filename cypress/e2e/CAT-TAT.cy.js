@@ -274,12 +274,23 @@ describe('Central de Atendimento ao Cliente TAT', () => {
       .should('have.value', 'Teste')
   })
 
-  it.only('Faz uma requisição HTTP', () => {
+  it('Faz uma requisição HTTP', () => {
     cy.request('https://cac-tat-v3.s3.eu-central-1.amazonaws.com/index.html')
       .should(response => {
         expect(response.status).to.eq(200)
         expect(response.statusText).to.eq('OK')
         expect(response.body).to.include('CAC TAT')
       })
+  })
+
+  it('encontra o gato escondido', () => {
+    cy.get('#cat')
+      .should('not.be.visible')
+      .invoke('show')
+      .should('be.visible')
+    cy.get('#title')
+      .invoke('text', 'CAT TAT')
+    cy.get('#subtitle') 
+      .invoke('text', 'Encontre o gato escondido')
   })
 })
